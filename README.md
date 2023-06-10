@@ -1,9 +1,5 @@
 # **Movie React App**
 
-![Movie React App](/RedmePic/1.png)
-
-
-
 This is a movie React app that allows users to browse and search for movies. It uses the [TMDb API](https://developer.themoviedb.org/docs) to fetch movie data and displays it in a user-friendly interface.
 
 ## **Features**
@@ -27,6 +23,11 @@ Check out the live demo of the app: <a href="https://movieapp-harry.netlify.app/
 
 ## **Screenshots**
 
+![Movie React App](/RedmePic/1.png)
+![Movie React App](/RedmePic/2.png)
+![Movie React App](/RedmePic/3.png)
+![Movie React App](/RedmePic/4.png)
+![Movie React App](/RedmePic/5.png)
 
 ## Contributing
 
