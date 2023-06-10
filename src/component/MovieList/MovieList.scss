@@ -1,0 +1,118 @@
+.paginationAbove{
+  background: radial-gradient(#316b8f, #274a66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.paginationAbove button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #d0ff00;
+  color: #1b1a1a;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+.paginationAbove button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.paginationAbove span {
+  margin: 0 10px;
+  color: #ffffff;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  background: radial-gradient(#316b8f, #274a66);
+}
+
+.movieLink {
+  text-decoration: none;
+}
+
+.movieContainer {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: radial-gradient(#183242, #0a3457);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  @media (max-width:350px) {
+    width: 90%;
+  }
+}
+
+.movieContainer:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.movieContainer img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.movieLinkTitle {
+  padding: 10px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #d0ff00;
+  color: #1b1a1a;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  margin: 0 10px;
+  color: #ffffff;
+}
