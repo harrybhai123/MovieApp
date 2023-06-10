@@ -12,7 +12,7 @@ This is a movie React app that allows users to browse and search for movies. It 
 
 ## **Demo**
 
-Check out the live demo of the app: [Movie React App Demo](https://movieapp-harry.netlify.app/)
+Check out the live demo of the app: [Movie React App Demo](https://movieapp-harry.netlify.app/){:target="_blank"}
 
 ## **Technologies Used**
 
